@@ -1,0 +1,10 @@
+pwd
+mkdir test1
+cd test1
+touch file.txt
+echo line >> file.txt
+echo line >> file.txt
+echo line >> file.txt
+cat file.txt
+grep line file.txt
+curl -X GET "https://petstore.swagger.io/v2/pet/findByStatus?status=available"
